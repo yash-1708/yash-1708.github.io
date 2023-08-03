@@ -822,11 +822,11 @@ input[type="radio"] + label:before {
 .image.dp {
   display: block;
   margin: 2.5rem 0;
-  width: 30%;
+  width: 40%;
 }
 
 .image.dp img {
-  width: 30%;
+  width: 100%;
 }
 
 @media screen and (max-width: 736px) {
