@@ -28,14 +28,10 @@
         <div class="content">
           <div class="inner">
             <h1>Yash Bhandare</h1>
-            <p>
-				a place to find out a little bit about who I am and what I do
-            </p>
+            <p>a place to find out a little bit about who I am and what I do</p>
 
             <p>
-              <a href="/docs/resume.pdf" download>
-                My Resume
-              </a>
+              <a href="/docs/resume.pdf" download> My Resume </a>
             </p>
           </div>
         </div>
@@ -43,7 +39,7 @@
           <ul>
             <li><a href="#intro">Intro</a></li>
             <li><a href="#work">Work</a></li>
-			<li><a href="#certifications">Certifications</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <!--<li><a href="#elements">Elements</a></li>-->
@@ -128,7 +124,132 @@
         <article id="work">
           <h2 class="major">Work</h2>
           <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-          <p>Under Construction!</p>
+          <p>
+            My coding philosophy is that rather than spending a lot of time on a
+            lot of code, I'd spend a lot of time on finding a way to do the same
+            task using as efficient and as little code as possible. Here are
+            some of my projects:
+          </p>
+          <ol>
+            <li>
+              <a href="https://github.com/yash-1708/Stock-Analyst-Rating">
+                <h4><b>SMART: Stock Market Analyst Rating Technique</b></h4>
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a href="https://github.com/yash-1708/Stock-Analyst-Rating"
+                  >Github Link</a
+                >
+              </li>
+              <li>
+                <a href="https://ieeexplore.ieee.org/document/9154002"
+                  >Link to research paper</a
+                >
+              </li>
+              <li>This is my undergraduate capstone project.</li>
+              <li>
+                My team and I used a novel approach to create an end-to-end
+                system to give Stock Market Analysts an unbiased rating based
+                solely on their historical performance.
+              </li>
+              <li>
+                Our original research was published in the IEEE INCET 2020
+                conference.
+              </li>
+              <li>
+                For this project, we started by creating a custom data scraping
+                script in Selenium, which helped us gather 20000+ stock purchase
+                recommendations given by 500+ stock market analysts.
+              </li>
+              <li>
+                These recommendations covered a span of 3 years and after
+                putting this data through a rigorous data cleaning and
+                conditioning layer of code, it was stored in a MySQL database.
+              </li>
+              <li>
+                A Naive Bayes Classifier along with some business logic was used
+                to extract meaningful ratings that were conditioned using a
+                K-Means algorithm layer to finally get a rating out of 5 stars
+                for each Analyst.
+              </li>
+              <li>
+                The System was coded in Python 3 with a flask REST API that was
+                served using a simple React.Js webpage.
+              </li>
+            </ul>
+
+            <li>
+              <a href="https://github.com/yash-1708/SA_GA_HyperparameterTuning">
+                <h4>
+                  <b
+                    >Hyperparameter Tuning Using Simulated Annealing and Genetic
+                    Algorithms</b
+                  >
+                </h4>
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/yash-1708/SA_GA_HyperparameterTuning"
+                >
+                  Github Link
+                </a>
+              </li>
+              <li>
+                This project was the result of a semester long independent
+                research study under Prof.Mohammedreza Hajiarbabi during my
+                Masters studies at Purdue University.
+              </li>
+              <li>
+                I developed two novel approaches to solve the problem of
+                searching through the vast search space of possible
+                hyperparameter for any given instance of using a Machine
+                Learning Model.
+              </li>
+              <li>
+                One of the approaches was based on the Genetic Algorithm and the
+                other based on Simulated Annealing.
+              </li>
+              <li>
+                The Genetic Algorithm is a Metaheuristic Algorithm that will
+                create 'populations' of possible solutions to a problem and
+                proceed to search through them
+              </li>
+              <li>
+                Currently in the process of publishing my results from this
+                project as a research paper.
+              </li>
+            </ul>
+            <li>
+              <a href="https://github.com/yash-1708/Translate_Transcribe_and_Subtitle">
+                <h4>
+                  <b
+                    >Translate, Transcribe and Subtitle Using WhisperAI</b
+                  >
+                </h4>
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/yash-1708/Translate_Transcribe_and_Subtitle"
+                >
+                  Github Link
+                </a>
+              </li>
+              <li>
+                This was the course project I developed as a part of my team for the Applications of Deep Learning course in my first semester as a masters student at Purdue University. This project went on to win the best course project award under the invaluable tutoring of Dr.Zesheng Chen
+              </li>
+              <li>
+                After analyzing a multitude of options, we decided on using WhisperAI's NLP model to develop a system to tranlate, transcribe and subtitle audio and video files.
+              </li>  
+              <li>
+                The most crucial part of the project was the creation of the translation interface that would translate audio in real time. We achieved this using a streaming socket.
+              </li>
+              <li>The other functionalities included transcription and auto-subtitling videos in English from many other languages supported by the WhisperAi model</li>
+          </ol>
         </article>
 
         <!-- Certifications -->
